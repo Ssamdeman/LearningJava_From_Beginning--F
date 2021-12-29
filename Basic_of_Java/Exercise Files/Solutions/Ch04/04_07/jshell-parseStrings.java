@@ -1,0 +1,9 @@
+String s1 = "Welcome to California!";
+int len = s1.length();
+String sub = s1.substring(11);
+String sub1 = s1.substring(11, 14);
+String s2 = "     Welcome!     ";
+String s3 = s2.trim();
+String str = "34.5";
+Double d = Double.parseDouble(str);
+double d = Double.parseDouble(str);

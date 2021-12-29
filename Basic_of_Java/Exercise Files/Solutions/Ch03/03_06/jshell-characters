@@ -1,0 +1,10 @@
+char c1 = '1';
+char c2 = '2';
+char c3 = '3';
+char nine = '\u0039';
+char dollar = '\u0024';
+char a = 'a';
+char upper = Character.toUpperCase(a);
+char[] chars = {'h', 'e', 'l', 'l', 'o'};
+String s = new String(chars);
+char[] chars2 = s.toCharArray();
