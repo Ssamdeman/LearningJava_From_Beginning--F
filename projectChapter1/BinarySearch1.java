@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import edu.princeton.cs.algs4.StdIn;
 
 
 //12-30-2021 13:10:20 this code is not working. I have no ideas why it is not working. 
