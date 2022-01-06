@@ -8,7 +8,7 @@
  *  % java Barnsley 10000
  *
  * ****************************************************************************/
-
+import StdDraw.java;
 public class Barnsley {
 
     public static void main(String[] args) {
