@@ -70,16 +70,30 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.Quadratic">
+  <component name="RunManager" selected="Application.GreatCircle">
     <configuration name="Exchnage" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Exchnage" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="5 9" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GreatCircle" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="GreatCircle" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="60.0 15.0 120.0 105.0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloGoodbye" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="HelloGoodbye" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="Alejandra Bahati" />
       <method v="2" />
     </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application">
@@ -93,14 +107,43 @@
       <option name="PROGRAM_PARAMETERS" value="5 2" />
       <method v="2" />
     </configuration>
+    <configuration name="LeapYear" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="LeapYear" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="2020" />
+      <method v="2" />
+    </configuration>
     <configuration name="Quadratic" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Quadratic" />
       <module name="Computer Science" />
       <option name="PROGRAM_PARAMETERS" value="-3.0 2.0" />
       <method v="2" />
     </configuration>
+    <configuration name="RandInt" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RandInt" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="6" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RightTriangle" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RightTriangle" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="-3 4 -5" />
+      <method v="2" />
+    </configuration>
     <configuration name="Ruler" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Ruler" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ThreeSort" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ThreeSort" />
+      <module name="Computer Science" />
+      <option name="PROGRAM_PARAMETERS" value="3 2 4" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UniformRandom" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="UniformRandom" />
       <module name="Computer Science" />
       <method v="2" />
     </configuration>

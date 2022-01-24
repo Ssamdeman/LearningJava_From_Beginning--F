@@ -14,7 +14,7 @@ public class Quadratic {
         double d = Math.sqrt(discriminant);
         double root1 = (-b + d) / 2.0;
         double root2 = (-b - d) / 2.0;
-
+ 
         System.out.println(root1);
         System.out.println(root2);
 
