@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="cs310Projedcts">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pa00_testing.zip!/" />
+      <root url="jar://$PROJECT_DIR$/pa0_skeleton.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
