@@ -36,7 +36,7 @@
     <option name="width" value="938" />
     <option name="height" value="765" />
   </component>
-  <component name="ProjectId" id="23YhiLtMM8stN7zbEdazoQEcBGg" />
+  <component name="ProjectId" id="249yWJJRN7V4Owq1uMH4QYhTKeL" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <showLibraryContents PackagesPane="false" />
@@ -77,120 +77,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.hello.CMYKtoRGB">
-    <configuration name="CMYKtoRGB" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="CMYKtoRGB" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="0.0 0.4392156862745098 1.0 0.0" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Exchnage" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Exchnage" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="5 9" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Foursort" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Foursort" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="8 3 4 7" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Gambler" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Gambler" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="5 25 10000" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GreatCircle" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="GreatCircle" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="60.0 15.0 120.0 105.0" />
-      <method v="2" />
-    </configuration>
-    <configuration name="HelloGoodbye" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="HelloGoodbye" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="Alejandra Bahati" />
-      <method v="2" />
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.RationalNumber">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <module name="Computer Science" />
-      <method v="2" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="IntOps" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="IntOps" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="5 2" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LeapYear" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="LeapYear" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="2020" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Quadratic" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Quadratic" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="-3.0 2.0" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RandInt" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="RandInt" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="6" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RightTriangle" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="RightTriangle" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="-3 4 -5" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Ruler" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Ruler" />
-      <module name="Computer Science" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SmallTest" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="SmallTest" />
-      <module name="Computer Science" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ThreeSort" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ThreeSort" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="3 2 4" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Threesortways" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Threesortways" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="3 2 1" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TwoSort" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="TwoSort" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="99 125" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UniformRandom" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="UniformRandom" />
-      <module name="Computer Science" />
+    <configuration name="RationalNumber" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RationalNumber" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="2 5" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <method v="2" />
     </configuration>
-    <configuration name="hello.CMYKtoRGB" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="hello.CMYKtoRGB" />
-      <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="1 2 3 4" />
-      <method v="2" />
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TodoView">
