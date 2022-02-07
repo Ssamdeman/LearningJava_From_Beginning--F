@@ -1,7 +1,10 @@
-package pa0;
 // Import packages as needed
 
+
+import pa0.Usage;
+
 import java.util.HashMap;
+import java.util.Map;
 
 // LineUsageData.java: Handle one line's data, using a Map
 
@@ -26,26 +29,42 @@ import java.util.HashMap;
     }*/
 public class LineUsage {
     // Variables here
-    
-    HashMap<String, Integer> user_count = new HashMap<String, Integer>();
+    HashMap<String, Integer> lines = new HashMap<String, Integer>();
 
     // Constructor
     public LineUsage() {
-        this.user_count = new HashMap<String, Integer>();
+        lines = new HashMap<String, Integer>();
     }
 
     // add one sighting of a user on this line
     public void addObservation(String username) {
-        this.user_count[username] += 1;
+        if (!lines.containsKey(username)) {
+            lines.put(username, 1);
+        }
+        else {
+            lines.put(username, lines.get(username) + 1);
+        }
 
     }
 
     // find the user with the most sightings on this line
     public pa0.Usage findMaxUsage() {
+        int tempValue = 0;
+        String user = "";
+        for (Map.Entry<String, Integer> element : lines.entrySet()) {
+            for (Map.Entry<String, Integer> nextelement : lines.entrySet()) {
+                if (element.getValue() >= nextelement.getValue()) {
+                    tempValue = element.getValue();
+                    user = element.getKey();
+                }
+            }
 
+        }
+        return new Usage(user, tempValue);
     }
 
     public static void main(String[] args) {
+
 
     }
 

@@ -6,23 +6,18 @@ package pa0;
 //I dont I understand of I did this thing right or not.
 //becasue it is asking this: Ask help from TA.
 ///"a, create a Usage object, add one to its count, and
-//then print out its username and count using the getters."
+//then print out its username and count using the getters."--D
 //---------------------------------------------------------------//
 public class Usage {
-    private int count;
-    private String userName;
+    int count;
+    String userName;
 
     public Usage(String x, int count) {
         userName = x;
         this.count = count;
     }
 
-    public void setCount(int x) {
-        this.count = x;
-    }
-
     public String getUser() {
-
         return userName;
     }
 
