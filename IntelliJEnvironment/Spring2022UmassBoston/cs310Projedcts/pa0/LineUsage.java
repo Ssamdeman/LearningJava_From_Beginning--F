@@ -39,7 +39,7 @@ public class LineUsage {
         if (!lines.containsKey(username)) {
             lines.put(username, 1);
         } else {
-            lines.put(username, lines.get(username) + 1);
+            lines.put(username, (lines.get(username) + 1));
         }
 
     }
@@ -60,16 +60,21 @@ public class LineUsage {
     }
 
     public static void main(String[] args) {
+        HashMap<String, Integer> test1 = new HashMap<String, Integer>();
+
+        System.out.println(test1.isEmpty());
 
 
     }
 
 }
 
+//This code is not working. find better solutions:
   /*  public pa0.Usage findMaxUsage() {
         int finalValue = 0;
         String finalUser = "";
         Map.Entry <String, Integer> tempUser;
+
 
         for (Map.Entry<String, Integer> element : lines.entrySet()) {
             if(tempUser.isEmpty()){
