@@ -42,12 +42,13 @@ public class LineUsage {
             lines.put(username, (lines.get(username) + 1));
         }
 
-    }
+    } ///run time is N
 
     // find the user with the most sightings on this line
+
     public pa0.Usage findMaxUsage() {
         int tempValue = 0;
-        String user = "";
+        String user = "<NONE>";
         for (Map.Entry<String, Integer> element : lines.entrySet()) {
             for (Map.Entry<String, Integer> nextelement : lines.entrySet()) {
                 if (element.getValue() >= nextelement.getValue()) {
@@ -57,17 +58,11 @@ public class LineUsage {
             }
         }
         return new pa0.Usage(user, tempValue);
-    }
+    }/// runtime is N^2* k constant
 
-    public static void main(String[] args) {
-        HashMap<String, Integer> test1 = new HashMap<String, Integer>();
-
-        System.out.println(test1.isEmpty());
-
-
-    }
 
 }
+
 
 //This code is not working. find better solutions:
   /*  public pa0.Usage findMaxUsage() {
