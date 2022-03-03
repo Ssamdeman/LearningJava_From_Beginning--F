@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/scr/pa0" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scr/pa1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scr/pa1/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
       <excludeFolder url="file://$MODULE_DIR$/.lift" />
       <excludePattern pattern="*.iml" />

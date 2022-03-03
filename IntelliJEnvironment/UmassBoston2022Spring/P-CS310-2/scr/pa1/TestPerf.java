@@ -4,12 +4,14 @@
  *  Last modified:     October 16, 1842
  *
  *
- * Running the code: javac -cp pa1/lib/algs4.jar pa1/*.java  to compile.
- *              java -cp pa1/lib/args4.jar pa1/TestPerf.java TinySt.txt
+ * Running the code: javac -cp .:../lib/algs4.jar pa1/*.java  to compile.--working
+ *              java -cp .:../lib/algs4.jar pa1.TestPerf tale.txt --Working
                 java -cp pa1/lib/args4.jar pa1/TestPerf.java TinySt.txt
 
  *Do i put the startingTimer before the loop or inside of the loop????
  **************************************************************************** */
+
+package pa1;
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.LinearProbingHashST;
@@ -26,7 +28,7 @@ public class TestPerf {
             = new SequentialSearchST<String, Integer>();
 
     int totalWords; // number of total words;
-    String mostUsedWord = "hello";/// most used word
+    String mostUsedWord;/// most used word
     long endedTimerST_ReturnDif; //timer for ST;
     long endedTimerSeperatedChain_ReturnDif; //time for Sepreated Chain
     long endedSequentailSearch_ReturnDif; //timer for Sequential Search
@@ -111,18 +113,30 @@ public class TestPerf {
 
     public int getMostUsedWord() {
         int tempholder_counter = 0;
+
         for (String s : sortedTable.keys()) {
             if (tempholder_counter < sortedTable.get(s)) {
                 tempholder_counter = sortedTable.get(s);
-                mostUsedWord = s;/// this line is not working.
+                //mostUsedWord = s;/// this line is not working.
+                // System.out.println(mostUsedWord);
             }
         }
+        //System.out.println(mostUsedWord);
         return tempholder_counter;
 
     }
 
     public String getMaxOccurrence() {
-        return mostUsedWord;
+        int tempholder_counter = 0;
+        String mostUsedWord2 = "";
+        for (String s : sortedTable.keys()) {
+            if (tempholder_counter < sortedTable.get(s)) {
+                tempholder_counter = sortedTable.get(s);
+                mostUsedWord2 = s;/// this line is not working.
+                //System.out.println(mostUsedWord);
+            }
+        }
+        return mostUsedWord2;
     }
 
     public void printStats() {
