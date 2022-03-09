@@ -6,12 +6,13 @@
  *
  * Running the code: javac -cp .:../lib/algs4.jar pa1/*.java  to compile.--working
  *              java -cp .:../lib/algs4.jar pa1.TestPerf tale.txt --Working
-                java -cp pa1/lib/args4.jar pa1/TestPerf.java TinySt.txt
+
 
  *Do i put the startingTimer before the loop or inside of the loop????
  **************************************************************************** */
 
 package pa1;
+
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.LinearProbingHashST;
@@ -111,7 +112,23 @@ public class TestPerf {
         return sortedTable.size();
     }
 
-    public int getMostUsedWord() {
+    public String getMostUsedWord() {
+        int tempholder_counter = 0;
+        String mostUsedWord2 = "";
+        for (String s : sortedTable.keys()) {
+            if (tempholder_counter < sortedTable.get(s)) {
+                tempholder_counter = sortedTable.get(s);
+                mostUsedWord2 = s;/// this line is not working.
+                //System.out.println(mostUsedWord);
+            }
+        }
+        return mostUsedWord2;
+
+    }
+
+
+    public int getMaxOccurrence() {
+
         int tempholder_counter = 0;
 
         for (String s : sortedTable.keys()) {
@@ -124,19 +141,7 @@ public class TestPerf {
         //System.out.println(mostUsedWord);
         return tempholder_counter;
 
-    }
 
-    public String getMaxOccurrence() {
-        int tempholder_counter = 0;
-        String mostUsedWord2 = "";
-        for (String s : sortedTable.keys()) {
-            if (tempholder_counter < sortedTable.get(s)) {
-                tempholder_counter = sortedTable.get(s);
-                mostUsedWord2 = s;/// this line is not working.
-                //System.out.println(mostUsedWord);
-            }
-        }
-        return mostUsedWord2;
     }
 
     public void printStats() {

@@ -1,5 +1,6 @@
 package pa1;
 
+///java -cp .:../lib/algs4.jar pa1.LinearProbingHashST2 tinyST.txt S A-- Working
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.Queue;
@@ -280,7 +281,7 @@ public class LinearProbingHashST2<Key, Value> {
      *
      * @param args the command-line arguments
      */
-    
+
 
     public static void main(String[] args) {
         LinearProbingHashST2<String, Integer> st = new LinearProbingHashST2<String, Integer>();
