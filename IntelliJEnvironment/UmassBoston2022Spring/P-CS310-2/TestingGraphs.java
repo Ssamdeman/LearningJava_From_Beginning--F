@@ -16,7 +16,6 @@ public class TestingGraphs {
     static boolean[] marked;
     static int[] edgeTo;/// 1
     static int[] distTo;
-
     // we are create Graph data type called G.
     // G is created
 
@@ -40,7 +39,7 @@ public class TestingGraphs {
                     distTo[w] = distTo[v] + 1;
                 }
                 //if(w.haspathto(t) && Distance != Distance)
-                increment:
+                //increment:
 
 
             }

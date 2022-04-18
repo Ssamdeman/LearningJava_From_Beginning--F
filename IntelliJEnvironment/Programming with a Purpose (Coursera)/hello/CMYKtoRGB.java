@@ -1,4 +1,3 @@
-package hello;
 /* *****************************************************************************
  *  Name:              Ada Lovelace
  *  Coursera User ID:  123456
@@ -17,9 +16,9 @@ public class CMYKtoRGB {
         double green = 255 * white * (1 - magenta);
         double blue = 255 * white * (1 - yellow);
 
-        Math.round(red);
-        Math.round(green);
-        Math.round(blue);
+        red = Math.round(red);
+        green = Math.round(green);
+        blue = Math.round(blue);
 
         System.out.println("red" + " = " + (int) red);
         System.out.println("green" + " = " + (int) green);

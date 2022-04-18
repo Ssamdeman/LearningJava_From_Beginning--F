@@ -2,108 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/STBA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/StopwatchCPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/ST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/src/pa0/LineReport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/src/pa0/LineUsage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/src/pa0/Usage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExploringArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/hello.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UmassBoston2022Spring/P-CS310-2/TestingGraphs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UmassBoston2022Spring/P-CS310-2/tinyG.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LineReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/pa0/LineReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LineUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/pa0/LineUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/ST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Usage.java" beforeDir="false" afterPath="$PROJECT_DIR$/pa0/Usage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pa0/Usage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/Algorithms, Part I.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/FrequencyCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/MachingAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/MachingAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/RationalNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/RationalNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/WELCOME.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/Wordusage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/Wordusage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/algorithms.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/animals.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/animals25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/animals8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/biased-coin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/coin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/colors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/libraries/cs310Projedcts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/libraries/cs310Projedcts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/cs310Projedcts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/cs310Projedcts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/out/production/cs310Projedcts/pa0/LineReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/out/production/cs310Projedcts/pa0/LineUsage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/out/production/cs310Projedcts/pa0/Usage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/grader/APIChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/grader/APIChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTest$None.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTest$None.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTestListenerHumanReadable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTestListenerHumanReadable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTestListenerJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTestListenerJSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTestRunnerJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/grader/GradedTestRunnerJSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/grader/TestResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/grader/TestResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/junit/JUnitUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/junit/JUnitUtilities.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/junit/RunListenerWithCapture$CaptureStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/junit/RunListenerWithCapture$CaptureStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/junit/RunListenerWithCapture.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/junit/RunListenerWithCapture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/junit/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/junit/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/junit/TestRunnerPrintAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/junit/TestRunnerPrintAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/junit/TestRunnerPrintFailuresOnly.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/junit/TestRunnerPrintFailuresOnly.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/com/gradescope/jh61b/junit/textui.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/com/gradescope/jh61b/junit/textui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/pa0/LineReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/pa0/LineReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/pa0/LineReportRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/pa0/LineReportRead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/pa0/LineUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/pa0/LineUsage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/pa0/Usage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/pa0/Usage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/pa0/tests/RunTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/pa0/tests/RunTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/pa0/tests/TestLineReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/pa0/tests/TestLineReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/classes/pa0/tests/TestSingleLineUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/classes/pa0/tests/TestSingleLineUsage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/compile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/compile.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/lib/algs4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/lib/algs4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/lib/hamcrest-core-1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/lib/junit-4.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/lib/junit-4.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/pa00_testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/pa00_testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/grader/APIChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/grader/APIChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/grader/GradedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/grader/GradedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/grader/GradedTestListenerHumanReadable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/grader/GradedTestListenerHumanReadable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/grader/GradedTestListenerJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/grader/GradedTestListenerJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/grader/GradedTestRunnerJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/grader/GradedTestRunnerJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/grader/TestResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/grader/TestResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/grader/gradescope_schema.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/grader/gradescope_schema.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/junit/JUnitUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/junit/JUnitUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/junit/RunListenerWithCapture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/junit/RunListenerWithCapture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/junit/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/junit/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/junit/TestRunnerPrintAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/junit/TestRunnerPrintAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/junit/TestRunnerPrintFailuresOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/junit/TestRunnerPrintFailuresOnly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/com/gradescope/jh61b/junit/textui.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/com/gradescope/jh61b/junit/textui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/pa0/LineReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/pa0/LineReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/pa0/LineUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/pa0/LineUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa00_testing/src/pa0/Usage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa00_testing/src/pa0/Usage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa0_skeleton.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/pa0_skeleton.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/src/pa0/LineReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/src/pa0/LineReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/src/pa0/LineUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/src/pa0/LineUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/src/pa0/ST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/src/pa0/Usage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/src/pa0/Usage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/all-pa0_firstProject/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/die.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/dream.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/loaded-die.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/names.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/roshambo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/tinyTale.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/two-dice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LessonRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/LessonRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa0/LineReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa0/LineUsage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa0/Usage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/hello/CMYKtoRGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/hello/CMYKtoRGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/hello/HelloGoodbye.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/hello/HelloGoodbye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/hello/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/hello/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Programming with a Purpose (Coursera)/hello/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UmassBoston2022Spring/P-CS310-2/ClassJanuray23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UmassBoston2022Spring/P-CS310-2/pa0/LineReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UmassBoston2022Spring/P-CS310-2/pa0/LineUsage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UmassBoston2022Spring/P-CS310-2/pa0/Usage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UmassBoston2022Spring/P-CS310-2/pa1/LinearProbingHashST2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UmassBoston2022Spring/P-CS310-2/pa1/TestPerf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UmassBoston2022Spring/P-CS310-2/pa1/memo.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +109,17 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.pa0.STBA">
+  <component name="RunManager" selected="Application.ExploringArrays">
+    <configuration name="ExploringArrays" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ExploringArrays" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LessonRecursion" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="LessonRecursion" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <method v="2" />
     </configuration>

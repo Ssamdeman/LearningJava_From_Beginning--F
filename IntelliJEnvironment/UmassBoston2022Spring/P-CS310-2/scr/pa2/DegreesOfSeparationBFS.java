@@ -4,6 +4,9 @@
  *  Last modified:     October 16, 1842
  **************************************************************************** */
 
+package pa2;
+
+
 import edu.princeton.cs.algs4.BreadthFirstPaths;
 import edu.princeton.cs.algs4.Graph;
 import edu.princeton.cs.algs4.Stack;
@@ -36,8 +39,18 @@ public class DegreesOfSeparationBFS {
         return bfp;
     }
 
+    //this code some issues. I am not sure what it is.
+
     public int baconNumber(String sink) {
+        //int sinkValue = useSymbolGraph.indexOf(sink);
+
+        if (!useSymbolGraph.contains(sink)) return -1;
+
         if (bfp.hasPathTo(useSymbolGraph.indexOf(sink))) {
+            //if the path is only 1 then return 1;
+            if (bfp.distTo(useSymbolGraph.indexOf(sink)) == 1)
+                return 1;
+
             return bfp.distTo(useSymbolGraph.indexOf(sink)) / 2;
         }
         else
@@ -57,8 +70,8 @@ public class DegreesOfSeparationBFS {
     }
 
     // priting test:
-    public void printPath() {
-        for (int s : graphPath("Kidman, Nicole")) {
+    public void printPath(String sink) {
+        for (int s : graphPath(sink)) {
             System.out.print(useSymbolGraph.nameOf(s) + "--> ");
 
         }
@@ -82,9 +95,13 @@ public class DegreesOfSeparationBFS {
     }*/
 
     public static void main(String[] args) {
-       /* String filename = args[0];
+        String filename = args[0];
         String delimiter = args[1];
-        String source = args[2];*/
+        String source = args[2];
+        String sink = args[3];
+        DegreesOfSeparationBFS G = new DegreesOfSeparationBFS(filename, delimiter, source);
+        System.out.println(G.baconNumber(sink));
+        G.printPath(sink);
 
 
     }

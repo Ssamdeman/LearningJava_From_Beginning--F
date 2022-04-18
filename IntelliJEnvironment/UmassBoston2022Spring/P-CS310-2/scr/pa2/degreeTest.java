@@ -12,7 +12,7 @@ public class degreeTest {
 
         DegreesOfSeparationBFS testobject = new DegreesOfSeparationBFS(filename, delimiter, source);
         System.out.println(testobject.baconNumber("Kidman, Nicole"));
-        testobject.printPath();
+        //testobject.printPath();
 
     }
 }

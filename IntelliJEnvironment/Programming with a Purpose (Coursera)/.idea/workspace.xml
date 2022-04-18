@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CollectionRandomFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithms, Part I or II (Coursera/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithms, Part I or II (Coursera/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithms, Part I or II (Coursera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithms, Part I or II (Coursera/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithms, Part I or II (Coursera/LessonRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithms, Part I or II (Coursera/LessonRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithms, Part I or II (Coursera/pa0/LineReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithms, Part I or II (Coursera/pa0/LineUsage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithms, Part I or II (Coursera/pa0/Usage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/out/production/cs310Projedcts/pa0/LineReport.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/out/production/cs310Projedcts/pa0/LineReport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa0/LineReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2022UmassBoston/cs310Projedcts/pa0/LineReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/CMYKtoRGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/CMYKtoRGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/HelloGoodbye.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/HelloGoodbye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/RightTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,7 @@
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -46,7 +54,9 @@
     <option name="height" value="765" />
   </component>
   <component name="ProjectId" id="23YhiLtMM8stN7zbEdazoQEcBGg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <showLibraryContents PackagesPane="false" />
@@ -80,6 +90,7 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
@@ -87,7 +98,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.CollectionRandomFunc">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RightTriangle">
     <configuration name="CMYKtoRGB" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="CMYKtoRGB" />
       <module name="Computer Science" />
@@ -126,7 +142,7 @@
     <configuration name="HelloGoodbye" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="HelloGoodbye" />
       <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="Alejandra Bahati" />
+      <option name="PROGRAM_PARAMETERS" value="Kevin Bob" />
       <method v="2" />
     </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application">
@@ -161,7 +177,7 @@
     <configuration name="RightTriangle" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="RightTriangle" />
       <module name="Computer Science" />
-      <option name="PROGRAM_PARAMETERS" value="-3 4 -5" />
+      <option name="PROGRAM_PARAMETERS" value="13 12 5" />
       <method v="2" />
     </configuration>
     <configuration name="Ruler" type="Application" factoryName="Application">
@@ -206,6 +222,11 @@
       <option name="PROGRAM_PARAMETERS" value="1 2 3 4" />
       <method v="2" />
     </configuration>
+    <configuration name="hello.HelloWorld" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="hello.HelloWorld" />
+      <module name="Computer Science" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TodoView">
@@ -243,5 +264,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
