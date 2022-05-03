@@ -7,5 +7,7 @@
 public class exploringMST {
     public static void main(String[] args) {
 
+        double x = (0.12) * 0;
+
     }
 }

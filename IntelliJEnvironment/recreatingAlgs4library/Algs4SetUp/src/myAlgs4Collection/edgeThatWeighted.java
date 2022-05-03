@@ -8,6 +8,8 @@ package myAlgs4Collection;
 
 //This implementation from Aalgs4 prinstone.
 
+import edu.princeton.cs.algs4.StdOut;
+
 public class edgeThatWeighted implements Comparable<edgeThatWeighted> {
 
     private final int v, w;
@@ -16,6 +18,7 @@ public class edgeThatWeighted implements Comparable<edgeThatWeighted> {
 
     //contructor has two vertex as int and weight as double
     public edgeThatWeighted(int v, int w, double weight) {
+
         this.v = v;
         this.w = w;
         this.weight = weight;
@@ -37,9 +40,11 @@ public class edgeThatWeighted implements Comparable<edgeThatWeighted> {
         return this.weight;
     }
 
-    /*public String toString(){
+    public String toString() {
+        return String.format("%d-%d %.5f", v, w, weight);
 
-    }*/
+    }
+
     public int compareTo(
             edgeThatWeighted that) { // we using the compare so we have to implements what is compare means
         // if other/that is bigger then the compares to return 1;
@@ -53,6 +58,8 @@ public class edgeThatWeighted implements Comparable<edgeThatWeighted> {
     }
 
     public static void main(String[] args) {
+        edgeThatWeighted e = new edgeThatWeighted(12, 34, 5.67);
+        StdOut.println(e);
 
     }
 

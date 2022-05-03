@@ -5,8 +5,9 @@
  **************************************************************************** */
 
 package test2;
+
 public class uglyNumbers {
     public static void main(String[] args) {
-        
+
     }
 }

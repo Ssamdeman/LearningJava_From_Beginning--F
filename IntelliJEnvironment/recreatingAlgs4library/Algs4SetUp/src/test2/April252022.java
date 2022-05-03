@@ -5,8 +5,13 @@
  **************************************************************************** */
 
 package test2;
+
 public class April252022 {
     public static void main(String[] args) {
-        
+        int x = 11;
+        int y = 11;
+        if (x > -1 - y) System.out.println(true);
+
+
     }
 }

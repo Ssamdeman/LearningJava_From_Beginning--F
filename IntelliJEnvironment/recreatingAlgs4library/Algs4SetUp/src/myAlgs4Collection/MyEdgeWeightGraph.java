@@ -7,10 +7,11 @@
 package myAlgs4Collection;
 
 import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.NoSuchElementException;
 
-public class EdgeWeightGraph {
+public class MyEdgeWeightGraph {
     private static final String NEWLINE = System.getProperty("line.separator");
     // creating edge weighted graph using adjacency list representation
 
@@ -18,7 +19,7 @@ public class EdgeWeightGraph {
     private int E; //number of edges
     private final MyBag<edgeThatWeighted>[] adj;
 
-    public EdgeWeightGraph(int V) {
+    public MyEdgeWeightGraph(int V) {
         this.V = V;
         this.E = 0;
         //making bag that is contains
@@ -30,7 +31,7 @@ public class EdgeWeightGraph {
     }
 
     ///getting thing from file.
-    public EdgeWeightGraph(In in) {
+    public MyEdgeWeightGraph(In in) {
         if (in == null) throw new IllegalArgumentException("argument is null");
 
         /// no Idea what try does.
@@ -120,6 +121,10 @@ public class EdgeWeightGraph {
     }
 
     public static void main(String[] args) {
+        In in = new In(args[0]);
+        //EdgeWeightedGraph G = new EdgeWeightedGraph(in);
+        MyEdgeWeightGraph G = new MyEdgeWeightGraph(in);
+        StdOut.println(G);
 
 
     }
