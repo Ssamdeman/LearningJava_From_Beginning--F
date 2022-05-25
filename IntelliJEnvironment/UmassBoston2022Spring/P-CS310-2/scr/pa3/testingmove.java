@@ -4,22 +4,15 @@
  *  Last modified:     October 16, 1842
  **************************************************************************** */
 
-import java.util.ArrayList;
+import edu.princeton.cs.algs4.In;
 
-public class April13_2022 {
-
+public class testingmove {
     public static void main(String[] args) {
-
-        ArrayList<Integer> StudentArray = new ArrayList<Integer>();
-        StudentArray.add(1);
-        StudentArray.add(2);
-        StudentArray.add(3);
-        StudentArray.add(4);
-        StudentArray.add(5);
-
-
-        System.out.println(StudentArray.get(0));
-
+        
+        String s = args[0];
+        In data = new In(s);
+        data.readAllStrings();
+        System.out.println(data);
 
     }
 }
