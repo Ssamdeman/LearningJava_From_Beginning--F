@@ -109,7 +109,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.ExploringArrays">
+  <component name="RunManager" selected="Application.Week1.RandomWord">
     <configuration name="ExploringArrays" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ExploringArrays" />
       <module name="Algorithms, Part I" />
@@ -118,6 +118,17 @@
     <configuration name="LessonRecursion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="LessonRecursion" />
       <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Testing1" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week1.RandomWord" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RandomWord" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="hello World" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
