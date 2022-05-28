@@ -6,7 +6,6 @@
 
 package myAlgs4Collection;
 
-import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class MyIndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integer> {
@@ -73,7 +72,7 @@ public class MyIndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integ
     //Heap Helper function
     public void swim(int k) {
         while (k > 1 && greater(k / 2, k))
-            exch(k k / 2);
+            exch(k, (k / 2));
         k = k / 2;
     }
 
@@ -92,9 +91,9 @@ public class MyIndexMinPQ<Key extends Comparable<Key>> implements Iterable<Integ
     }
 
 
-    public Iterator<Integer> iterator() {
-        return new HeapIterator;
-    }
+  /*  public Iterator<Integer> iterator() {
+        return new HeapIterator();
+    }*/
 
 
     public static void main(String[] args) {
