@@ -1,3 +1,4 @@
+
 /* *****************************************************************************
  *  Name:              Ada Lovelace
  *  Coursera User ID:  123456
@@ -15,22 +16,24 @@ public class RandomWord {
         String currentWord = " ";
         String previousWord = " ";
         boolean checker;
-        int i = 0; //tracking ith word
+        double i = 0.0; //tracking ith word
         // int p = 1; // getting probability of 1/i
+        double tempValue;
 
 
         while (!StdIn.isEmpty()) {
             currentWord = StdIn.readString();
             i++; /// this first word.
-            checker = StdRandom.bernoulli(
-                    1 / i); // getting true or false given probability of 1/i for the CurrentWord.
-            System.out.println("checking checker: " + checker);
+            tempValue = 1 / i;
+            // getting true or false given probability of 1/i for the CurrentWord.
+            checker = StdRandom.bernoulli(tempValue);
+            // System.out.println("checking checker: " + checker);
             if (checker) previousWord = currentWord;
 
             //System.out.println(previousWord);
         }
-        /*System.out.println(previousWord);
-        System.out.println(currentWord);*/
+        System.out.println(previousWord);
+        //System.out.println(currentWord);
 
 
     }

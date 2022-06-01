@@ -126,9 +126,8 @@
       <method v="2" />
     </configuration>
     <configuration name="Week1.RandomWord" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="RandomWord" />
+      <option name="MAIN_CLASS_NAME" value="Week1.RandomWord" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="hello World" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
