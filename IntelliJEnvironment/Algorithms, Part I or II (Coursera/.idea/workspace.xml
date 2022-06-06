@@ -114,7 +114,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.Week1.RandomWord">
+  <component name="RunManager" selected="Application.Week1.Percolation">
     <configuration name="ExploringArrays" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ExploringArrays" />
       <module name="Algorithms, Part I" />
@@ -127,6 +127,11 @@
     </configuration>
     <configuration name="Testing1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Testing1" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week1.Percolation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week1.Percolation" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
