@@ -6,6 +6,8 @@
 
 package Week1;
 
+import edu.princeton.cs.algs4.Stopwatch;
+
 public class threeSum {
 
 
@@ -30,6 +32,9 @@ public class threeSum {
 
     public static void main(String[] args) {
         int[] test1 = new int[] { 30, -40, -20, -10, 40, 0, 10, 5 };
-        System.out.print(count(test1));
+        Stopwatch stopwatch = new Stopwatch();
+        System.out.println(count(test1));
+        double time = stopwatch.elapsedTime();
+        System.out.println(time);
     }
 }
