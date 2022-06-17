@@ -6,8 +6,6 @@
 
 package Week1;
 
-import edu.princeton.cs.algs4.Stopwatch;
-
 import java.util.Arrays;
 
 public class threeSum {
@@ -15,6 +13,7 @@ public class threeSum {
 
     //Run time is n^3.
     public static int count(int[] a) {
+
         int N = a.length;
         int count = 0; //keep track of adding 3 number equals to 0;
 
@@ -49,14 +48,49 @@ public class threeSum {
         }
         return count;
 
-
     }
+
+    public static int count_version_three(int[] a) {
+        Arrays.sort(a);
+        int count = 0;
+
+        for (int i = 0; i < a.length - 2; i++) {
+            int q = a[i];
+            int start = a[i + 1];
+            int end = a.length - 1;
+
+            while (start < end) {
+                int w = a[start];
+                int e = a[end];
+                if (q + w + e == 0) {
+                    count++;
+                    start = start + 1;
+                    end = end - 1;
+                }
+                else if (q + w + e > 0) {
+                    end = end - 1;
+                }
+                else {
+                    start = start + 1;
+                }
+
+            }
+        }
+        return count;
+    }
+
+    //bitonic arrays;
+
 
     public static void main(String[] args) {
         int[] test1 = new int[] { 30, -40, -20, -10, 40, 0, 10, 5 };
-        Stopwatch stopwatch = new Stopwatch();
+        /*Stopwatch stopwatch = new Stopwatch();
         System.out.println(count(test1));
         double time = stopwatch.elapsedTime();
-        System.out.println(time);
+        System.out.println(time);*/
+
+        System.out.println(test1.length - 1);
+
+
     }
 }

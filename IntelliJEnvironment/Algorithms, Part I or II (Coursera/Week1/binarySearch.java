@@ -41,6 +41,28 @@ public class binarySearch {
 
     }
 
+    //binary search for finding maximum value in an array which is first increasing and then decreasing
+    public static int findMaxNumber(int[] a, int low, int high) {
+
+
+        //corner cases
+        if (low == high) return a[low];
+        if ((high == low + 1) && a[low] >= a[high]) return a[low];
+        if ((high == low + 1) && a[low] < a[high]) return a[high];
+
+        // getting the middle.
+        int mid = (low + high) / 2;
+
+        if (a[mid] > a[mid + 1] && a[mid] > a[mid - 1])
+            return a[mid];
+
+        if (a[mid] > a[mid + 1] && a[mid] < a[mid - 1])
+            return findMaxNumber(a, low, mid + 1);
+        else
+            return findMaxNumber(a, mid + 1, high);
+
+    }
+
 
     public static void main(String[] args) {
 
