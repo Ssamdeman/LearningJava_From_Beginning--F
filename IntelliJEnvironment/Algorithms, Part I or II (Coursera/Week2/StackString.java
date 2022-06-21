@@ -9,14 +9,44 @@ package Week2;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+
+//implements with linkedList.
 public class StackString {
+    private Node first = null;
+
+    //inner class.
+    private class Node {
+        String item;
+        Node next;
+    }
+
+    public boolean isEmpty() {
+        return first == null;
+    }
+
 
     public String pop() {
+        String item = first.item;
+        first = first.next;
+        return item;
 
     }
 
-    public void push() {
+    public void push(String new_item) {
+        Node oldFirst = first;
+        first = new Node();
+        first.item = new_item;
+        first.next = oldFirst;
 
+
+    }
+
+    public void printLinkedList() {
+
+        while (first.next != null) {
+            System.out.print(first.item);
+            first = first.next;
+        }
     }
 
     public static void main(String[] args) {
@@ -33,5 +63,7 @@ public class StackString {
                 stack.push(s);
         }
 
+
     }
+
 }
