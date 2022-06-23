@@ -9,15 +9,39 @@ package Week2;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
+import java.util.Iterator;
+
 
 //implements with linkedList.
-public class StackString {
+public class StackString<String> implements Iterable<String> {
     private Node first = null;
 
     //inner class.
     private class Node {
         String item;
         Node next;
+    }
+
+    public Iterator<String> iterator() {
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<String> {
+        private Node current = first;
+
+        public boolean hasNext() {
+            return current != null;
+        }
+
+        public void remove() {
+        }
+
+        public String next() {
+            String st = current.item;
+            current = current.next;
+            return st;
+        }
+
     }
 
     public boolean isEmpty() {
