@@ -4,7 +4,7 @@
  *  Last modified:     October 16, 1842
  **************************************************************************** */
 
-package Week1;
+package Week1.percolation;
 
 
 import edu.princeton.cs.algs4.In;

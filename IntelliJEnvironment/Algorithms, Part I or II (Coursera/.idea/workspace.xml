@@ -54,6 +54,7 @@
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -113,7 +114,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.Week2.StackString">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sulta\Documents\allCodings\projects\LearningJava_From_Beginning\IntelliJEnvironment\Algorithms, Part I or II (Coursera" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sulta\Documents\allCodings\projects\LearningJava_From_Beginning\IntelliJEnvironment\Algorithms, Part I or II (Coursera" />
+      <recent name="C:\Users\sulta\Documents\allCodings\projects\LearningJava_From_Beginning\IntelliJEnvironment\Algorithms, Part I or II (Coursera\Week1\percolation" />
+      <recent name="C:\Users\sulta\Documents\allCodings\projects\LearningJava_From_Beginning\IntelliJEnvironment\Algorithms, Part I or II (Coursera\Week1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Week1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Week1.PercolationVisualizer">
     <configuration name="ExploringArrays" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ExploringArrays" />
       <module name="Algorithms, Part I" />
@@ -132,11 +146,29 @@
     <configuration name="Week1.Percolation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week1.Percolation" />
       <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="input2.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week1.PercolationVisualizer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week1.PercolationVisualizer" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="input6.txt" />
       <method v="2" />
     </configuration>
     <configuration name="Week1.RandomWord" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week1.RandomWord" />
       <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week1.percolation.InteractivePercolationVisualizer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week1.percolation.InteractivePercolationVisualizer" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week1.percolation.PercolationVisualizer" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week1.percolation.PercolationVisualizer" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="input8-dups.txt" />
       <method v="2" />
     </configuration>
     <configuration name="Week1.threeSum" type="Application" factoryName="Application">
