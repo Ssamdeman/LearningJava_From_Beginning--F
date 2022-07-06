@@ -54,7 +54,6 @@
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
-    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -108,7 +107,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week1/percolation" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -116,6 +115,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sulta\Documents\allCodings\projects\LearningJava_From_Beginning\IntelliJEnvironment\Algorithms, Part I or II (Coursera\Week1\percolation" />
       <recent name="C:\Users\sulta\Documents\allCodings\projects\LearningJava_From_Beginning\IntelliJEnvironment\Algorithms, Part I or II (Coursera" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -127,7 +127,7 @@
       <recent name="Week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Week1.PercolationVisualizer">
+  <component name="RunManager" selected="Application.Week1.PercolationStats">
     <configuration name="ExploringArrays" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ExploringArrays" />
       <module name="Algorithms, Part I" />
@@ -144,9 +144,15 @@
       <method v="2" />
     </configuration>
     <configuration name="Week1.Percolation" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Week1.Percolation" />
+      <option name="MAIN_CLASS_NAME" value="Week1.percolation.finals.Percolation" />
       <module name="Algorithms, Part I" />
       <option name="PROGRAM_PARAMETERS" value="input2.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week1.PercolationStats" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week1.percolation.finals.PercolationStats" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="200 100" />
       <method v="2" />
     </configuration>
     <configuration name="Week1.PercolationVisualizer" type="Application" factoryName="Application">

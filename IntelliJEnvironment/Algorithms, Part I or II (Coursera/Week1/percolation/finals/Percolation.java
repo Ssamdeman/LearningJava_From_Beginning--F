@@ -4,8 +4,6 @@
  *  Last modified:     October 16, 1842
  **************************************************************************** */
 
-package Week1;
-
 
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
@@ -123,7 +121,7 @@ public class Percolation {
     }
 
 
-    public int numberofOpenSites() {
+    public int numberOfOpenSites() {
         return openSites;
     }
 
@@ -132,7 +130,7 @@ public class Percolation {
     }
 
 
-    //testing things
+   /* //testing things
     public void print() {
 
         for (int i = 0; i < matrix.length; i++) {
@@ -142,7 +140,7 @@ public class Percolation {
             System.out.println();
         }
 
-    }
+    }*/
 
 
     public static void main(String[] args) {
