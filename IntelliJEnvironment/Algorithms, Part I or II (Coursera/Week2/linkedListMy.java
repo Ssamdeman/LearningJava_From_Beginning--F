@@ -38,6 +38,7 @@ public class linkedListMy {
     public void push(String new_data) {
 
         Node new_node = new Node(new_data);
+
         new_node.next = head;
         head = new_node;
 
@@ -59,6 +60,7 @@ public class linkedListMy {
             head = new_node;
             return;
         }
+
         new_node.next = null;
 
         Node last = head;

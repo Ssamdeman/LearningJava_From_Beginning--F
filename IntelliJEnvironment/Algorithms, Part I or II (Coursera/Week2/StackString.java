@@ -25,7 +25,8 @@ public class StackString<String> implements Iterable<String> {
     public Iterator<String> iterator() {
         return new ListIterator();
     }
-
+    
+    //ToDo : https://www.youtube.com/watch?v=bx0ebSGUKto 
     private class ListIterator implements Iterator<String> {
         private Node current = first;
 
@@ -50,6 +51,7 @@ public class StackString<String> implements Iterable<String> {
 
 
     public String pop() {
+
         String item = first.item;
         first = first.next;
         return item;
@@ -57,6 +59,7 @@ public class StackString<String> implements Iterable<String> {
     }
 
     public void push(String new_item) {
+
         Node oldFirst = first;
         first = new Node();
         first.item = new_item;
