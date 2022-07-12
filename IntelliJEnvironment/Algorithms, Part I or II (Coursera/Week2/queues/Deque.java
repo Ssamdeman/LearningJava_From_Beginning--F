@@ -55,18 +55,21 @@ public class Deque<Item> implements Iterable<Item> {
     }
 
     // add the item to the back
+    //Neeed to check if my add lost is working.
     public void addLast(Item item) {
         if (item == null) throw new IllegalArgumentException("");// corner cases
 
-        Node oldLast = last;
-        last = new Node();
-        last.data = item;
-        last.next = null;
-
-        if (isEmpty())
-            last = first;
-        else
-            oldLast.next = last;
+        Node prev;
+        Node curr = first;
+        while (curr.next != null) {
+            prev = curr;
+            curr = curr.next;
+        }
+        last = curr;
+        Node newLast = new Node();
+        newLast.data = item;
+        newLast.next = null;
+        last.next = newLast;
 
         size_items++;
 
@@ -92,15 +95,17 @@ public class Deque<Item> implements Iterable<Item> {
     public Item removeLast() {
         if (isEmpty()) throw new NoSuchElementException("");
 
-        Item tempData = last.data;
+
         //find the previous of the last;
         Node prev = null;
         Node curr = first;
-        while (curr != null) {
+        while (curr.next != null) {
             prev = curr;
             curr = curr.next;
         }
+        Item tempData = curr.data;
         last = prev;
+        size_items--;
 
 
         return tempData;
@@ -115,12 +120,66 @@ public class Deque<Item> implements Iterable<Item> {
     }
 
     public class listIterator<Item> implements Iterator<Item> {
-        
+        private Node curr = first;
 
+
+        public boolean hasNext() {
+            return curr != null;
+        }
+
+        public void remove() {
+        }
+
+        public Item next() {
+            Node temp = curr;
+            curr = curr.next;
+            return (Item) temp.data;
+        }
     }
 
     // unit testing (required)
     public static void main(String[] args) {
+
+        Deque myDeque = new Deque();
+        System.out.println(myDeque.isEmpty());
+        System.out.println(myDeque.size());
+        myDeque.addFirst(3);
+        myDeque.addFirst(2);
+        myDeque.addFirst(1);
+        System.out.println(myDeque.isEmpty());
+        System.out.println(myDeque.size());
+
+        for (Object x : myDeque) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+        myDeque.addLast(4);
+        myDeque.addLast(5);
+
+        for (Object x : myDeque) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+        System.out.println(myDeque.size());
+
+        System.out.println("Testing removing functions");
+
+        System.out.println(myDeque.removeFirst());
+        for (Object x : myDeque) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+        System.out.println(myDeque.size());
+        System.out.println("@2 Testing removing functions");
+
+
+        System.out.println(myDeque.removeLast());
+        for (Object x : myDeque) {
+            System.out.print(x + " ");
+        }
+        System.out.println();
+        System.out.println(myDeque.size());
+
 
     }
 }

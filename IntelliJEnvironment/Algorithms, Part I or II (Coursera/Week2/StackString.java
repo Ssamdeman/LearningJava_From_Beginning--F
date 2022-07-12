@@ -25,7 +25,7 @@ public class StackString<String> implements Iterable<String> {
     public Iterator<String> iterator() {
         return new ListIterator();
     }
-    
+
     //ToDo : https://www.youtube.com/watch?v=bx0ebSGUKto 
     private class ListIterator implements Iterator<String> {
         private Node current = first;
@@ -38,6 +38,7 @@ public class StackString<String> implements Iterable<String> {
         }
 
         public String next() {
+            
             String st = current.item;
             current = current.next;
             return st;

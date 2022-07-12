@@ -54,6 +54,7 @@
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -127,7 +128,7 @@
       <recent name="Week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Week1.PercolationStats">
+  <component name="RunManager" selected="Application.Week2.queues.Deque">
     <configuration name="ExploringArrays" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ExploringArrays" />
       <module name="Algorithms, Part I" />
@@ -189,6 +190,11 @@
     </configuration>
     <configuration name="Week2.linkedListMy" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week2.linkedListMy" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week2.queues.Deque" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week2.queues.Deque" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
