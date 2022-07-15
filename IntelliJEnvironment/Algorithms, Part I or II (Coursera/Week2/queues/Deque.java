@@ -106,8 +106,6 @@ public class Deque<Item> implements Iterable<Item> {
         Item tempData = curr.data;
         last = prev;
         size_items--;
-
-
         return tempData;
 
 
