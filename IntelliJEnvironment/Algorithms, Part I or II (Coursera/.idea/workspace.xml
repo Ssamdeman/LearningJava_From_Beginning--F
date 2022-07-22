@@ -128,7 +128,12 @@
       <recent name="Week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Week2.queues.Deque">
+  <component name="RunManager" selected="Application.RandomizedQueue">
+    <configuration name="Deque" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Deque" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
     <configuration name="ExploringArrays" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ExploringArrays" />
       <module name="Algorithms, Part I" />
@@ -136,6 +141,16 @@
     </configuration>
     <configuration name="LessonRecursion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="LessonRecursion" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Permutation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomizedQueue" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="RandomizedQueue" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -196,6 +211,12 @@
     <configuration name="Week2.queues.Deque" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Week2.queues.Deque" />
       <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Week2.queues.Permutation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Week2.queues.Permutation" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="3" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">

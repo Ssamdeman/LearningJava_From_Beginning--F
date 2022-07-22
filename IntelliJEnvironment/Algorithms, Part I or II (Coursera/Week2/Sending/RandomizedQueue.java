@@ -60,7 +60,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
     // remove and return a random item
     public Item dequeue() {
-        if (size == 0) throw new IllegalArgumentException();
+        if (isEmpty()) throw new IllegalArgumentException();
 
         int r = StdRandom.uniform(size);
         Item item = queue[r]; //get the randome item
@@ -87,7 +87,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         return new listIterator();
     }
 
-    public class listIterator implements Iterator<Item> {
+    private class listIterator implements Iterator<Item> {
 
         int counter;
         Item[] relist;
@@ -104,6 +104,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         }
 
         public void remove() {
+            // [UncommentedEmptyMethodBody]
 
         }
 

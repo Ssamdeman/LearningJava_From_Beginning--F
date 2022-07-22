@@ -56,12 +56,12 @@ public class Deque<Item> implements Iterable<Item> {
     // add the item to the back
     //Neeed to check if my add lost is working.
     public void addLast(Item item) {
-        if (item == null) throw new IllegalArgumentException("");// corner cases
+        if (item == null) throw new NullPointerException("");// corner cases
 
-        Node prev;
+        //Node prev;
         Node curr = first;
         while (curr.next != null) {
-            prev = curr;
+            //prev = curr;
             curr = curr.next;
         }
         last = curr;
@@ -116,7 +116,7 @@ public class Deque<Item> implements Iterable<Item> {
 
     }
 
-    public class listIterator<Item> implements Iterator<Item> {
+    private class listIterator implements Iterator<Item> {
         private Node curr = first;
 
 
@@ -125,19 +125,20 @@ public class Deque<Item> implements Iterable<Item> {
         }
 
         public void remove() {
+            // [UncommentedEmptyMethodBody]
         }
 
         public Item next() {
             Node temp = curr;
             curr = curr.next;
-            return (Item) temp.data;
+            return temp.data;
         }
     }
 
     // unit testing (required)
     public static void main(String[] args) {
 
-        Deque myDeque = new Deque();
+        /*Deque myDeque = new Deque();
         System.out.println(myDeque.isEmpty());
         System.out.println(myDeque.size());
         myDeque.addFirst(3);
@@ -175,7 +176,7 @@ public class Deque<Item> implements Iterable<Item> {
             System.out.print(x + " ");
         }
         System.out.println();
-        System.out.println(myDeque.size());
+        System.out.println(myDeque.size());*/
 
 
     }
